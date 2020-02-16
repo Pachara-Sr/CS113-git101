@@ -1,0 +1,27 @@
+week9
+
+1. clone git repo โดย
+
+	git clone <git-url>
+
+2.สร้าง branch โดย
+	git branch <branch-name> หรือ git checkout -m <branch-name> (สร้าง branch ใหม่พร้อมย้ายไปอยู่ branh ที่สร้างเลย)
+
+3.เปลี่ยน branch โดย
+	git checkout <branch-name>
+
+4.ตรวจสอบ branch ที่มีรวมทั้งตำแหน่งปัจจุบัน
+	git branch ตำแหน่งที่อยู่จะระบุด้วย *
+
+5.การ merge
+	ไปอยู่ใน branch ปลายทางของการ merge แล้วใช้ git merge <branch name> vi "commit message" (ไม่ต้อง commit เอง commit มาให้แล้ว)
+
+6.การ pull 
+	git pull origin <ชื่อ branch ที่ต้องการ pull>
+
+----------------------------------------------------------------------------------------
+1.merge แบบมี conflict
+	ถ้าแก้เสร็จแล้ว ให้ add commit เอง
+
+2.pull แบบมี conflict
+	ให้แก้ไข แล้ว add commt push ใหม่
